@@ -11,13 +11,13 @@
         android:layout_height="200dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:onClick="onClickImage"
         android:paddingRight="10dp"
+        android:src="@android:drawable/ic_menu_gallery"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_my_ads"
-        android:src="@drawable/ic_smartphone_ads"
-        />
+        tools:srcCompat="@android:drawable/ic_menu_gallery" />
 
 
     <EditText
@@ -67,7 +67,7 @@
         android:ems="10"
         android:gravity="top"
         android:hint="@string/edit_ac_desc"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine|textPersonName"
         android:paddingRight="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/idPhone"

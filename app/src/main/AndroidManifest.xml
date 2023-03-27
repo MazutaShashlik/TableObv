@@ -12,7 +12,7 @@
         android:theme="@style/Theme.TableObv"
         tools:targetApi="31">
         <activity
-            android:name=".EditActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".EditActivity"></activity>
     </application>
 
 </manifest>
